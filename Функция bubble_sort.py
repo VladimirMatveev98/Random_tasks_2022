@@ -14,7 +14,6 @@ def bubble_sort(list):
     operating_range = operating_range - 1
 
 
-
 if __name__ == '__main__':
     #Заранее сгенерированный рандомный список:
     list = [82, 69, 18, 46, 40, 98, 74, 41, 13, 0,

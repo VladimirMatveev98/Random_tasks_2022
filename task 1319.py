@@ -23,15 +23,12 @@ for word in message:
             if letter in consonat:
                 c = c + 1
         priority = c / len(word)
-        print (priority)
         ratio[priority] = word
         priority = 0
         c = 0
 
-print (ratio)
 keys = list(ratio.keys())
 keys.sort()
-print (keys)
 
 for key in keys:
     word = ratio[key]
